@@ -1,0 +1,412 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background: #f5f5f5;
+  width: 100%;
+}
+
+
+h1,h2,h3,
+a,p,div {
+  letter-spacing: -0.03em;
+}
+
+
+.header {
+  padding: 33px 125px 0 125px;
+  margin: auto;
+}
+
+
+.footer {
+  width: 1400px;
+  padding: 60px 0 30px 0;
+  background: #121212;
+  text-align: center;
+}
+
+
+.footer__title {
+  font-size: 20px;
+  margin-top: 87px;
+  line-height: 27px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  text-align: center;
+}
+
+
+.footernav {
+  width: 450px;
+  margin: auto;
+  top: 60px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+    
+}
+
+
+.footernav__link {
+  margin-left: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-decoration: none;
+  color: #FFFFFF;
+ }
+
+
+.footernav__link:first-child {
+  margin: 0;
+}
+
+
+.footernav__link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.nav {
+  float: right;
+}
+
+
+.nav__link {
+  margin-left: 60px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-decoration: none;
+  color: #121212;
+}
+
+
+.nav__link:hover,
+.nav__link:active {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+.main-block {
+  width: 1400px;
+  margin-top: 70px;
+}
+
+
+.section {
+  margin: auto;
+  width: 1400px;
+  padding: 150px 125px 0 125px;
+
+}
+
+
+.section-full {
+  width: 100%;
+
+}
+
+
+.section-nopadd {
+  padding: 0;
+}
+
+
+.section:first-child {
+  margin-top: 0;
+  padding-top: 70px;
+}
+
+
+.section-long {
+  padding-bottom: 150px;
+  padding: 60px 0 30px 0;
+}
+
+
+.main-block {
+  width: 1400px;
+  margin-top: 70px;
+}
+
+
+.section-black h1,
+.section-black h2,
+.section-black h3 {
+  color: #FFF;
+}
+
+
+.section-black {
+  background-color: #000;
+  padding: 150px 125px 150px 125px;
+  color: #FFF;
+}
+
+
+h1 {
+  color: #000;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  letter-spacing: -1.8px;
+}
+
+
+h2 {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+
+h3 {
+  font-family: Manrope;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  text-align: left;
+  color: #FFF;
+}
+
+
+h1,h2,h3 {
+  color: #121212;
+}
+
+
+.container{
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1180px;
+}
+
+.nav__block{
+  display: flex;
+  align-items: center;
+  width: 1151.35px;
+  height: 25.18px;
+  background-color: #ffffff;
+  margin-top: 32.82px;
+}
+
+.nav__img{
+  display: flex;
+}
+
+
+.rectangle {
+  height: 500px;
+  width: 1150px;
+  background-image: url('resourses/Rectangle 1.png');
+  margin-top: 30px;
+  position: relative;
+}
+
+.about-us{
+  width: 1051px;
+  margin-top: 150px;
+}
+
+
+.study {
+  margin-top: 30px;
+  font-family: Manrope;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 61px;
+  text-align: left;
+}
+
+
+.services {
+  margin-top: 34px;
+}
+
+
+.service {
+  width: 1400px;
+}
+
+
+.services .service {
+  margin-top: 60px;
+}
+
+
+.services :first-child {
+  margin-top: 0;
+}
+
+
+.service__image {
+  margin-bottom: 15px;
+}
+
+
+.image-text {
+  position: absolute;
+  color: #FFFFFF;
+  width: 430px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.6px;
+  left: 40px;
+  bottom: 40px;
+}
+
+
+a.btn {
+  margin-top: 30px;
+  padding: 20px 40px;
+  font-size: 20px;
+  background: #AD1818;
+  display: inline-block;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+
+.project {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  text-align: left;
+}
+
+
+.word-project{
+  width: 79px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24.59px;
+  color: #121212;
+  padding: 0px 1196px 30px 0px;
+}
+
+
+.projects {
+  width: 1150px;
+  margin-bottom: 15px;
+}
+
+
+.projects .project {
+  margin-top: 90px;
+}
+
+
+.project__title {
+  margin-bottom: 15px;
+}
+
+
+.projects:first-child {
+  margin-top: 0;
+}
+
+
+.project__link {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
+  text-align: left;
+  color: #AD1818;
+  text-decoration: none;
+}
+
+
+.fullusebuttom {
+  display: block;
+  width: 100%;
+  height: 153px;
+  line-height: 153px;
+  border: 1px solid #AD1818;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: #AD1818;
+  font-size: 30px;
+  margin-top: 90px;
+}
+
+
+.fullusebuttom:hover {
+  background-color: #AD1818;
+  color: #FFFFFF;
+}
+
+
+.fullwidthimage {
+  position: relative;
+  width: 100%;
+  height: 717px;
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 0) 0.52%,
+      rgba(0, 0, 0, 0) 82.81%),
+    url(resourses/Rectangle\ 10.png);
+  background-size: cover;
+  background-position: 20%;
+}
+
+
+.fullwidthimage__text {
+  position: absolute;
+  font-size: 30px;
+  line-height: 41px;
+  color: #FFFFFF;
+  left: 125px;
+  bottom: 60px;
+}
+
+
+.phone-before:before {
+  content: "";
+  display: block;
+  margin-bottom: 12px;
+  margin-left: -5px;
+  width: 24px;
+  height: 24px;
+  background-image: url("resourses/ic_outline-phone-iphone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.contacts__phone {
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+  text-decoration: none;
+}
+
+
+.contacts__email {
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #121212;
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
