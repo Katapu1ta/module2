@@ -212,7 +212,7 @@ h1,h2,h3 {
 .rectangle {
   height: 500px;
   width: 1150px;
-  background-image: url('../resourses/Rectangle 1.png');
+  background-image: url('resourses/Rectangle 1.png');
   margin-top: 30px;
   position: relative;
 }
@@ -364,7 +364,7 @@ a.btn {
   background: linear-gradient(180deg,
       rgba(0, 0, 0, 0) 0.52%,
       rgba(0, 0, 0, 0) 82.81%),
-    url(../resourses/Rectangle\ 10.png);
+    url(resourses/Rectangle\ 10.png);
   background-size: cover;
   background-position: 20%;
 }
@@ -387,7 +387,7 @@ a.btn {
   margin-left: -5px;
   width: 24px;
   height: 24px;
-  background-image: url("../resourses/ic_outline-phone-iphone.png");
+  background-image: url("resourses/ic_outline-phone-iphone.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
