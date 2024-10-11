@@ -202,6 +202,7 @@ h1,h2,h3 {
   height: 25.18px;
   background-color: #ffffff;
   margin-top: 32.82px;
+  justify-content: space-between;
 }
 
 .nav__img{
