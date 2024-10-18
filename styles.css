@@ -9,6 +9,10 @@ body {
   width: 100%;
 }
 
+.countainer{
+  padding-top: 70px;
+}
+
 
 h1,h2,h3,
 a,p,div {
@@ -46,7 +50,6 @@ a,p,div {
   top: 60px;
   margin-bottom: 50px;
   display: flex;
-  justify-content: space-between;
   position: absolute;
     
 }
@@ -112,7 +115,7 @@ a,p,div {
 
 .section-full {
   width: 100%;
-
+  padding-top: 30px;
 }
 
 
@@ -202,7 +205,7 @@ h1,h2,h3 {
   height: 25.18px;
   background-color: #ffffff;
   margin-top: 32.82px;
-  justify-content: space-between;
+  justify-content: space-between
 }
 
 .nav__img{
@@ -213,7 +216,7 @@ h1,h2,h3 {
 .rectangle {
   height: 500px;
   width: 1150px;
-  background-image: url('resourses/Rectangle 1.png');
+  background-image: url('resourses/Rectangle1.png');
   margin-top: 30px;
   position: relative;
 }
@@ -322,7 +325,7 @@ a.btn {
 
 
 .projects:first-child {
-  margin-top: 0;
+  margin-top: 150px;
 }
 
 
@@ -349,6 +352,7 @@ a.btn {
   color: #AD1818;
   font-size: 30px;
   margin-top: 90px;
+  margin-bottom: 150px;
 }
 
 
@@ -365,7 +369,7 @@ a.btn {
   background: linear-gradient(180deg,
       rgba(0, 0, 0, 0) 0.52%,
       rgba(0, 0, 0, 0) 82.81%),
-    url(resourses/Rectangle\ 10.png);
+    url(resourses/Rectangle10.png);
   background-size: cover;
   background-position: 20%;
 }
