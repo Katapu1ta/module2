@@ -392,7 +392,7 @@ a.btn {
   margin-left: -5px;
   width: 24px;
   height: 24px;
-  background-image: url("resourses/ic_outline-phone-iphone.png");
+  background-image: url('resourses/ic_outline-phone-iphone.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
