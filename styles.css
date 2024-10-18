@@ -369,7 +369,7 @@ a.btn {
   background: linear-gradient(180deg,
       rgba(0, 0, 0, 0) 0.52%,
       rgba(0, 0, 0, 0) 82.81%),
-    url(/resourses/Rectangle10.png);
+    url('/resourses/Rectangle10.png');
   background-size: cover;
   background-position: 20%;
 }
