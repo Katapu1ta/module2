@@ -13,6 +13,31 @@ body {
   padding-top: 70px;
 }
 
+.blocks_blackserices {
+  margin-top: 34px;
+}
+
+.block_blackserices {
+  margin-bottom: 60px;
+  color: #FFF;
+}
+
+.block_blackserices:last-child {
+  margin-bottom: 0;
+}
+
+.block_black__image {
+  margin-bottom: 12px;
+}
+
+.plan {
+  color: #FFF;
+}
+
+.section_black{
+  background-color: black;
+}
+
 .footer_wrapier {
   text-align: center;
 }
